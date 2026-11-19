@@ -1,4 +1,6 @@
 Healthcare Uncertainty Chatbot
+README Word Count: 180
+
 Project Status
 This project is a working prototype demonstrating how uncertainty can be communicated in healthcare chatbots.
 
@@ -12,8 +14,8 @@ Personalised profiles
 Health literacy adaptation
 Expanded symptom database
 Technology Stack
-Python
-Streamlit
+Python – core application logic
+Streamlit – user interface and interaction
 Running the Project
 python -m streamlit run app.py
 Development Record
@@ -21,22 +23,29 @@ Version 1
 Basic symptom input and response system.
 
 Version 2
-Added confidence levels.
+Added confidence levels to improve uncertainty communication.
 
 Version 3
-Added uncertainty communication.
+Added uncertainty warnings inspired by findings from the literature review.
 
 Version 4
-Added suggested actions and expanded symptom support.
+Added suggested actions and support for additional symptoms.
+
+Final Version
+Added screenshots, system diagram and supporting documentation.
 
 AI Assistance
-Microsoft Copilot was used to support project planning, code development, report drafting, storyboard ideas and README preparation.
+Microsoft Copilot was used to assist with:
 
-Examples of assistance included:
+Project planning
+Code suggestions
+Report structure
+Storyboard ideas
+README preparation
+AI-generated suggestions were reviewed, tested and modified before inclusion. Code was checked by running the Streamlit application locally. Report content was checked against the literature reviewed in Assignment 1. Diagram and storyboard suggestions were adapted to match the implemented prototype.
 
-Generating early versions of the Streamlit chatbot code.
-Suggesting report structure and section organisation.
-Providing ideas for system diagrams and storyboard layouts.
-Helping draft descriptions of design decisions and project rationale.
-All AI-generated suggestions were reviewed and modified before inclusion in the final project. Code was tested locally using Streamlit, report text was edited for clarity and relevance, and references were checked against the literature used in Assignment 1. AI suggestions were adapted to reflect the actual implemented system and project scope.
-
+Additional Files
+app.py – prototype implementation
+screenshots/ – interaction screenshots
+diagrams/ – system architecture diagram
+report/ – project report documents
